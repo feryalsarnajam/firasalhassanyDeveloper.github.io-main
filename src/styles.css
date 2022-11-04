@@ -1,0 +1,154 @@
+:root {
+  --amara_font_color: rgb(187, 167, 123);
+  --amara_navbar_footer: rgb(0, 0, 0);
+  --amara_body_bg: rgb(230, 230, 230);
+}
+
+body {
+  background-color: var(--amara_body_bg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  color: black;
+}
+
+a {
+  color: var(--amara_font_color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--amara_body_bg);
+}
+
+hr {
+  color: var(--amara_font_color);
+}
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  width: 100%;
+  margin-bottom: 1em;
+  border-color: var(--amara_font_color);
+  border-spacing: 0;
+}
+
+td {
+  color: var(--amara_font_color);
+  padding: 0.5em;
+  text-align: left;
+  border-bottom: 0.1px groove var(--amara_font_color);
+  line-height: 1.3;
+  font-size: 0.9em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 1px;
+}
+
+li {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.space {
+  width: auto;
+  height: 4vmax;
+}
+.navbar {
+  width: 100%;
+  background: var(--amara_navbar_footer);
+  color: var(--amara_font_color);
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-bottom: var(--amara_font_color) 0.2rem solid;
+}
+
+@media (min-width: 320px) {
+  .navbar {
+    float: none;
+    height: auto;
+  }
+}
+
+.navbar a {
+  display: flex;
+  float: left;
+  text-align: center;
+  color: var(--amara_font_color);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.2rem;
+}
+
+.nav-link:hover {
+  color: var(--amara_body_bg) !important;
+}
+
+.navbar-toggler {
+  color: var(--amara_font_color);
+}
+
+.navbar-toggler-icon {
+  background-image: url(./assets/images/icons8-menu.svg);
+  color: var(--amara_font_color);
+}
+
+.nav-link {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+nav img {
+  position: relative;
+  width: 80%;
+}
+
+.d-flex {
+  display: right;
+}
+
+.content {
+  margin: auto;
+  height: 65%;
+  width: 65%;
+}
+.carousel-caption {
+  color: var(--amara_navbar_footer);
+}
+
+.carousel-inner {
+  border: var(--amara_font_color) 0.1rem solid;
+}
+
+.footer {
+  background: var(--amara_navbar_footer);
+  font-size: small;
+  color: var(--amara_font_color);
+  padding: 2rem;
+  border-top: var(--amara_font_color) 0.2rem solid;
+}
+
+.amara-navbar {
+  display: contents;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.right a {
+  margin-right: -0.9rem;
+}
+
+.btn-afspraak {
+  background-color: var(--amara_font_color);
+  --bs-btn-color: var(--amara_navbar_footer);
+  --bs-btn-border-color: var(--amara_font_color);
+  --bs-btn-hover-color: var(--amara_font_color);
+  --bs-btn-hover-bg: var(--amara_navbar_footer);
+  --bs-btn-hover-border-color: var(--amara_font_color);
+  font-size: 1.1rem;
+}
+

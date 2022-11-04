@@ -1,0 +1,14 @@
+.contact {
+  text-align: center;
+  float: none;
+  margin-top: 4rem;
+}
+
+a {
+  color: var(--amara_navbar_footer);
+}
+
+.contact .locatie a:hover {
+  color: var(--amara_font_color);
+  text-decoration: solid black;
+}

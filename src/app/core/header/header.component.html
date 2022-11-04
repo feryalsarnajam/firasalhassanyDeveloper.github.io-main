@@ -1,0 +1,40 @@
+<div class="space"></div>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" routerLink="./home">
+      <img src="./assets/images/navbar-logo-100.jpg" alt="">
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="amara-navbar">
+        <div class="navbar-nav">
+          <a class="nav-link" routerLink="./Behandelingen">Behandelingen</a>
+          <a class="nav-link" routerLink="./resultaten">Resultaten</a>
+          <a class="nav-link" routerLink="./prijzen">Prijzen</a>
+          <a class="nav-link" routerLink="./contact">Contact</a>
+
+        </div>
+        <div class="right">
+          <a class="nav-link" routerLink="./contact">
+            <button class="btn btn-afspraak">Maak nu een afspraak
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

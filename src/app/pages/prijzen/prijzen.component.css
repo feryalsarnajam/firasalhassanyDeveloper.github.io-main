@@ -1,0 +1,24 @@
+.detail-pagina {
+  padding: 1rem;
+}
+.paragraaf-detail-pagina h1,
+p {
+  text-align: left;
+  display: block;
+  position: relative;
+  margin: 1rem;
+}
+
+.paragraaf-detail-pagina h1 {
+  color: #bba77b;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.img-detail-pagina {
+  width: 20rem;
+  height: 20rem;
+  border: 0.1rem solid #bba77b;
+  border-radius: 0.3rem;
+  margin: 1rem;
+}
